@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bài tập JS buổi 4</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="container">
+          <!-- Bài tập 1 -->
+          <div>
+            <h1>Bài 1: Cho người dùng nhập vào 3 số nguyên. Viết chương trình xuất 3 số ra theo thứ tự tăng dần </h1>
+            <input class="form-control mt-4" id="soN1" type="number" placeholder="Nhập vào số nguyên 1" />
+            <input class="form-control mt-4" id="soN2" type="number" placeholder="Nhập vào số nguyên 2"/>
+            <input class="form-control mt-4" id="soN3" type="number" placeholder="Nhập vào số nguyên 3"/>
+            <button class="btn btn-success mt-4" id="btn-xuatSo">Xuất ra theo thứ tự tăng dần</button>
+            <div class="alert alert-primary mt-4" id="ketQua1" ></div>
+          </div>
+
+        <hr>
+        <!-- Bài tập 2 -->
+        <h1>Viết chtr chào hỏi các thành viên trong gia đình với các đặc điểm. Đầu tiên máy sẽ hỏi ai sử dụng máy. sau đó dựa vào câu trả lời và đưa ra lời chào phù hợp. giả sử trong gia đình có 4 thành viên (B,M,A,E)</h1>
+        <div>
+            <h2>Chào người dùng, bạn là ai trong gia đình?</h2>
+            <select class="form-control mt-4" id="member">
+                <option value="B">Bố</option>
+                <option value="M">Mẹ</option>
+                <option value="A">Anh trai</option>
+                <option value="E">Em gái</option>
+            </select>
+            <button class="btn btn-success mt-4" id="btn-Chao">Xin chào</button>
+            <div class="alert alert-primary mt-4" id="ketQua2"></div>
+        </div>
+
+        <hr>
+
+         <!-- Bài tập 3 -->
+         <div>
+            <h1>Bài 3: Cho 3 số nguyên. Viết chương trình xuất ra có bao nhiêu số lẻ và bao nhiêu số chẵn. </h1>
+            <input class="form-control mt-4" id="soA" type="number" placeholder="Nhập vào số nguyên 1" />
+            <input class="form-control mt-4" id="soB" type="number" placeholder="Nhập vào số nguyên 2"/>
+            <input class="form-control mt-4" id="soC" type="number" placeholder="Nhập vào số nguyên 3"/>
+            <button class="btn btn-success mt-4" id="btn-So">Số lượng số chẵn và lẻ</button>
+            <div class="alert alert-primary mt-4" id="ketQua3" ></div>
+          </div>
+
+           <!-- Bài tập 4 -->
+         <div>
+            <h1>Bài 4:Viết chương trình cho nhập 3 cạnh của tam giác. Hãy cho biết đó là tam giác gì?
+                • Ví dụ: a=2, b=2, c=1 => Tam giác cân
+                • a = 3, b=3 c=3 => Tam giác đều
+                • a = 3, b = 4, c=5 => Tam giác vuông (đinh lý Pytago)</h1>
+            <input class="form-control mt-4" id="canh1" type="number" placeholder="Nhập vào chiều dài cạnh 1 " />
+            <input class="form-control mt-4" id="canh2" type="number" placeholder="Nhập vào chiều dài cạnh 2"/>
+            <input class="form-control mt-4" id="canh3" type="number" placeholder="Nhập vào chiều cạnh 3"/>
+            <button class="btn btn-success mt-4" id="btn-tamgiac">Tam giác gì</button>
+            <div class="alert alert-primary mt-4" id="ketQua4" ></div>
+          </div>
+
+
+      </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
